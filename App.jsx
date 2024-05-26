@@ -16,7 +16,7 @@ export default function App() {
     })
     .catch(error=>{
       console.log(error)
-      Alert.alert("get status faild !")
+      Alert.alert("get status faild ! , check the console")
     })
   }
 
